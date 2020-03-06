@@ -1,4 +1,6 @@
 # Write your code here.
+deli_line = []
+
 def line(deli_line)
   if deli_line.length == 0
     return "The line is currently empty."
@@ -9,3 +11,5 @@ def line(deli_line)
     end
   end
 end
+
+line(deli_line)
